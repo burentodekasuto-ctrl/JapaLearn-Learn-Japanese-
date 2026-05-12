@@ -3,22 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>JapaLearn</title>
 
-  <!-- CONNECT CSS HERE -->
   <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
 
-  <h1>JapaLearn 🇯🇵</h1>
-  <p>Learn Japanese with AI</p>
+<!-- Animated Background Boxes -->
+<div class="bg">
+  <div class="box left"></div>
+  <div class="box right"></div>
+  <div class="box top"></div>
+  <div class="box bottom"></div>
+</div>
 
-  <button onclick="sayHello()">Test Button</button>
+<!-- Main Content -->
+<div class="container">
 
-  <!-- CONNECT JS HERE -->
-  <script src="script.js"></script>
+  <h1 class="title">
+    <span class="japa">Japa</span><span class="learn">Learn</span>
+  </h1>
+
+  <p class="subtitle">Ready To Learn Japanese?</p>
+
+  <button onclick="startApp()">Yes!</button>
+
+</div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
