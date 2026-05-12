@@ -1,3 +1,3 @@
-function sayHello() {
-  alert("JapaLearn is working!");
+function startApp() {
+  alert("Welcome to JapaLearn 🇯🇵");
 }
